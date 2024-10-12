@@ -1,0 +1,16 @@
+[Unit]
+Description=gunicorn django daemon
+After=network.target
+
+[Service]
+User=pushpender_django
+Group=www-data
+WorkingDirectory=/var/lib/jenkins/workspace/Sentigram/Sentigram
+ExecStart=/var/lib/jenkins/workspace/Sentigram/Sentigram/venv/bin/gunicorn --access-logfile - --workers 10 --timeout 30 --bind unix:/run/gunicorn_sentigram.sock Sentigram.wsgi:application
+Environment="PATH=/var/lib/jenkins/workspace/Sentigram/Sentigram/venv/bin:/usr/local/bin:/usr/bin:/bin"
+Environment="PRODUCTION=True"
+# stderr_logfile = /var/lib/jenkins/workspace/Sentigram/logs/error.log
+# stdout_logfile = /var/lib/jenkins/workspace/Sentigram/logs/access.log
+
+[Install]
+WantedBy=multi-user.target
