@@ -1,5 +1,14 @@
 # Sentigram
-We've developed this Project for a Hackathon (CreaTech Larson & Toubro 2024), where our team was semi finalist by competing amoung 13,362 Teams
+We've developed this Project for a Hackathon (`CreaTech Larson & Toubro 2024`), where our team was `semi finalist` by competing `amoung 13,362 Teams`
+
+## Objective:
+- Nowadays, `social media analysis` plays a crucial role in `building Trustable Brand` & `Loyal Customer Base`
+- `Manually detecting` the `market mood` and `public perception` about the company is `tough`.
+- Till the time, companies reliases there mistake, the negative tweet or reel become viral.
+- So the `primary goal of Sentigram` is to `swiftly identify negative sentiments` related to the company, `allowing for timely interventions` to `mitigate potential public relations issues`. 
+- By `addressing negative feedback proactively`, Sentigram aims to `foster a trustworthy brand image` and cultivate a `loyal customer base`.
+- We have aimed to Developed an AI model to understand the sentiments about the company using social media feeds (such as Twitter, Facebook, Linkedin, and other digital media inputs)
+- Currently we have only developed the `NLP Sentimental Analysis` model for twitter.
 
 ## Overview:
 - Sentigram is an innovative web solution designed to monitor social media platforms, enabling companies to assess public sentiment towards their brand in real time. 
@@ -11,11 +20,6 @@ We've developed this Project for a Hackathon (CreaTech Larson & Toubro 2024), wh
 Sentiment Analysis: Utilizes natural language processing (NLP) algorithms to analyze the tone of messages, accurately predicting the overall sentiment.
 
 - Mood Meter: Displays a dynamic mood meter that visually represents the sentiment landscape based on the volume and nature of tweets at any given time.
-
-## Objective:
-- The primary goal of Sentigram is to swiftly identify negative sentiments related to the company, allowing for timely interventions to mitigate potential public relations issues. 
-- By addressing negative feedback proactively, Sentigram aims to foster a trustworthy brand image and cultivate a loyal customer base.
-- We have Developed an AI model to understand the sentiments about the company using social media feeds (such as Twitter, Facebook, Linkedin, and other digital media inputs)
 
 ## Data Source
 - Twitter Data Source https://www.kaggle.com/kazanova/sentiment140
