@@ -1,5 +1,21 @@
 # Sentigram
-Develop an AI model to understand the sentiments about the company using social media feeds (such as Twitter, Facebook, Linkedin, and other digital media inputs)
+We've developed this Project for a Hackathon (CreaTech Larson & Toubro 2024), where our team was semi finalist by competing amoung 13,362 Teams
+
+## Overview:
+- Sentigram is an innovative web solution designed to monitor social media platforms, enabling companies to assess public sentiment towards their brand in real time. 
+- By leveraging advanced sentiment analysis techniques, Sentigram fetches tweets and messages from social media to classify sentiment as positive, negative, or neutral.
+
+## Key Features:
+
+- Real-Time Monitoring: Continuously scans social media channels for mentions of the company, providing up-to-the-minute insights into public perception.
+Sentiment Analysis: Utilizes natural language processing (NLP) algorithms to analyze the tone of messages, accurately predicting the overall sentiment.
+
+- Mood Meter: Displays a dynamic mood meter that visually represents the sentiment landscape based on the volume and nature of tweets at any given time.
+
+## Objective:
+- The primary goal of Sentigram is to swiftly identify negative sentiments related to the company, allowing for timely interventions to mitigate potential public relations issues. 
+- By addressing negative feedback proactively, Sentigram aims to foster a trustworthy brand image and cultivate a loyal customer base.
+- We have Developed an AI model to understand the sentiments about the company using social media feeds (such as Twitter, Facebook, Linkedin, and other digital media inputs)
 
 ## Data Source
 - Twitter Data Source https://www.kaggle.com/kazanova/sentiment140
@@ -8,17 +24,12 @@ Develop an AI model to understand the sentiments about the company using social 
 - Django
 - PostgresSQL
 
-## Django Admin Creds
-- Username: admin
-- Email: pushpender@witeso.com
-- Password: SentigramAdmin#@666
-- URL: https://sentigram.witeso.com/admin
-
 ## Video Demo
 [Video](Demos/L&T_Final.mp4)
 
 ## TODO
 - [ ] Integrate Twitter Sentimental Analysis Model
+- [ ] Notify Concerned Department if the Mood Meter is negative 
 - [ ] Improve Frontend
 
 ## Run Application
